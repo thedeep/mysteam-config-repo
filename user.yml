@@ -7,7 +7,7 @@ spring:
     index: 0
 
   datasource:
-    url: jdbc:mysql://localhost:3306/user_service?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/user_service?useUnicode=true&characterEncoding=UTF8mb4
     username: root
     password: 
     testWhileIdle: true
